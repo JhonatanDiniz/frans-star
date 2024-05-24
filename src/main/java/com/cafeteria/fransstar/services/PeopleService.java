@@ -17,4 +17,7 @@ public class PeopleService {
         return peopleRepositorie.findAll();
     }
 
+    public People create(People obj){
+        return peopleRepositorie.save(obj);
+    }
 }

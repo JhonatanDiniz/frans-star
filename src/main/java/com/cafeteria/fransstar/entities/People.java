@@ -14,7 +14,7 @@ import org.hibernate.validator.constraints.br.CPF;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
-public abstract class People {
+public class People {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
