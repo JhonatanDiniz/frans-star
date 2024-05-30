@@ -3,14 +3,12 @@ package com.cafeteria.fransstar.controllers;
 import com.cafeteria.fransstar.entities.People;
 import com.cafeteria.fransstar.services.PeopleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
-import java.time.Period;
 import java.util.List;
-import java.util.ResourceBundle;
+
 
 @RestController
 @RequestMapping(value = "/people")
